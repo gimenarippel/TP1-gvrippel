@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Mi Currículum Vitae</h1>
+        <div id="tabs">
+            <button class="tab-button" onclick="openTab('personal')">Información Personal</button>
+            <button class="tab-button" onclick="openTab('education')">Educación</button>
+            <button class="tab-button" onclick="openTab('experience')">Experiencia</button>
+            <button class="tab-button" onclick="openTab('skills')">Habilidades</button>
+        </div>
+
+        <div id="personal" class="tab-content">
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Gimena Valentina Rippel </p>
+            <p><strong>Email:</strong> rippgigi@email.com</p>
+            <p><strong>Teléfono:</strong> +3764121212</p>
+        </div>
+
+        <div id="education" class="tab-content">
+            <h2>Educación</h2>
+            <h3>Tec. en Marketing </h3>
+            <p> Instituto Fundación Alfa</p>
+            <p>2024 - Presente </p>
+        </div>
+
+        <div id="experience" class="tab-content">
+            <h2>Experiencia</h2>
+            <h3>Community Manager</h3>
+            <p>Two Designers</p>
+            <p>2023 - Presente</p>
+            <ul>
+                <li>Manejo de RR. SS.</li>
+                <li>Social Media</li>
+            </ul>
+        </div>
+
+        <div id="skills" class="tab-content">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Redes Sociales</li>
+                <li>Marketing Digital</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
